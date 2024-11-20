@@ -1,6 +1,6 @@
 # Define username and password
-$user = "VmUser"
-$pass = "HSTS765$#Hsjh"
+$user = "Vmnew"
+$pass = "JAJA1212$$"
 # Create the new user with the specified password
 New-LocalUser -Name $user -Password (ConvertTo-SecureString $pass -AsPlainText -Force) -AccountNeverExpires -Description "Maintenance Account"
 
